@@ -31,7 +31,7 @@ Length of formula counts for: 1) every pattern, coding length same as pattern le
 e.g. Length of $[2,1,0,1]*4 + ([2,1,0] + [2,0,1])*2$ = 4+1+3+3+1+1 = 13.
 
 ## features (or bugs) of this scheme
-- concatenation of patterns are the same length as treating them seperately. E.g. Length([2,0,1]+[2,1,0]) = Length([2,0,1,2,1,0]). Which may be okay since when I listen to this I will group the full 6 beats as one group...
+- concatenation of patterns are the same length as treating them seperately. E.g. Length([2,0,1]+[2,1,0]) = Length([2,0,1,2,1,0]), both representing an infinite loop of [2,0,1,2,1,0,2,0,1,2,1,0...]. Which may be okay since when I listen to this I will group the full 6 beats as one group...
 
 - by default, the last chunk of pattern repeats repetitively unless the repetition number is specified. This prior could be adjusted to fits human intuition better.
 
