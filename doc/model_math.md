@@ -83,10 +83,26 @@ Assume higher probability of keeping the accent in the same beat as the *previou
 
 
 # fit the model from a piece of music
+## my proposal
+Two components: hypothesis generation and model evaluation.
+
+### hypothesis generation
+Here, hypothesis regards both pattern and pattern structure. 
+
+Instead of randomly searching about all the hypothesis or enumerate them (which is infinite unless constraining pattern length), always forming hypothesis and feed into the evaluation part.
+
+Also holds the memory for the previous patterns so that it allows more flexible recursive hypothesis generation.
+
+### model evaluation
+Intuitively, if a pattern is repeated then it's likely to be the right one.
+
+
+
+
 ## what is the difficulty?
 - Dealing with time series data instead of i.i.d, so that inference is based on the exact history.
 
-- If treating each pattern as a "hidden state", the states are not known in priori. You may better not enumerating all possible states...?
+- If treating each pattern as a "hidden state", it's a giant state space and unlikely to do any enumeration. 
 
 ## what are the potentially useful tools?
 - Structural time series: 
