@@ -1,7 +1,7 @@
 # Previous study: what they've done and what they've not done
 ### Generative theory of tonal music
 Lerdahl and Jackendoff (1996 reprint of the 1983 book).
-[!treestructure](Lerdahl.jpg)
+![treestructure](Lerdahl.jpg)
 
 Time-span reduction: Hierarchical reduction, from simple to complex, by grouping music and find the “critical structure/signatures”; Then plus preference rules.
 
@@ -10,7 +10,7 @@ David Temperley (2007 book)
 
 Similarly, hierarchical structure, with probabilistic dependencies within and across levels. Start from tactus level (gaussian between note intervals), then develop higher or lower structures based on that.
 
-[!levels](Temperley.jpg)
+![levels](Temperley.jpg)
 
 Note that Temperley model takes into account of fine onset time for notes (in hundred milliseconds "pips") instead of a symbolic representation. 
 
@@ -52,9 +52,9 @@ Regarding the temporal scope under control of the structure, the Temperley model
 ### prior knowledge
 For Temperley's metrical model, prior comes from statistics from the large dataset and is essential to the model prediction.
 
-[!between-level](Temperley_prior1.jpg)
+![between-level](Temperley_prior1.jpg)
 
-[!level2note](Temperley_prior2.jpg)
+![level2note](Temperley_prior2.jpg)
 
 For Pearce et al. model, almost no prior information. But there's a "long term model" which studies all the other songs in a database and is weighted into the prediction (higher weight when it has higher certainty than the short term model).
 
@@ -70,7 +70,7 @@ The learning progress in Pearce et al. model is smooth, since the frequency coun
 
 Temperley's model is also a smooth gradual evidence accumulation and uses a dynamic programming procedure to integrate evidences (see figure below), which we can also use. 
 
-[!dynaprogramming](Temperley_dynaprogm.png)
+![dynaprogramming](Temperley_dynaprogm.png)
 
 There is hardly incremental discovery in that only when the music piece comes to an end will the algorithm collapse on a single specific hypothesis. It seems possible, however, to periodically drop some hypothesis in a particle filter manner. 
 
