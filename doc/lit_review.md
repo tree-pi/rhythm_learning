@@ -32,6 +32,14 @@ Behavior: perceived unexpectedness and reaction time
 
 EEG: ???
 
+#### Neural study
+
+One advantage of this model is that it has been used in neural study of human capturing regularities.
+> Barascud, Nicolas, Marcus T. Pearce, Timothy D. Griffiths, Karl J. Friston, and Maria Chait. “Brain Responses in Humans Reveal Ideal Observer-like Sensitivity to Complex Acoustic Patterns.” 
+
+![transition](Barascud2016.png)
+
+Here they use MEG to review when the listener captures the transition from a random sequence to a perefectly repeating sequence and show that the detection is as fast as ideal obeserver model -- which is the n-gram model.
 
 # How is our work different
 ## regarding the model of rhythms
