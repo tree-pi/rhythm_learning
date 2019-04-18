@@ -50,12 +50,17 @@ Regarding rhythm prediction, the output should always be the probability of a no
 
 Our model has no big difference from previous models in its input and output (and is thus comparable). 
 
+### hidden variables
+One fundamental feature of our model is the reliance on "patterns" which describe specific notes. Good hypothesis can recognize repeating patterns and that's how compression is done. The pulses of regular interval or the "downbeats" can be built into our model, but not essenstial, as in the Temperley and Lerdahl & Jackendoff.
+
 ### hypothesis space
+
 For the n-gram model, hypothesis is the mere table of frequency and is changed continuously. For all the other model, the underlying structures are assumed and contains different levels of abstraction. 
 
 Regarding the hierarchical structure of hypothesis, our model is orthogonal regarding the formula level and the pattern level; whereas in the Temperley model, the tactus level (level 2) is the basis of the upper and lower level.
 
 Regarding the temporal scope under control of the structure, the Temperley model is not concerned of the overall structure of the piece and is more like markovian transitions, while the Lerdahl&Jackendoff and our model also try to predict the overall piece structure. 
+
 
 ### prior knowledge
 For Temperley's metrical model, prior comes from statistics from the large dataset and is essential to the model prediction.
