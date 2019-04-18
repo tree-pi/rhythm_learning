@@ -91,9 +91,11 @@ There is hardly incremental discovery in that only when the music piece comes to
 
 
 # What can we learn from the previous studies
-- The biggest concern is the ecological validity of our model and the stimuli generated from our model. The solution is either to show the similarity between our model and some certain genre of music (say, dance and pop), or check our model's prediction power using their database.
-- Although the hidden structure is different in different models, behavior data is needed to determine what do people actually perceive and use in prediction. Also it is likely to combine different levels: say, the tactus pulses can be recognized after the repeated patterns have been identified (simlar as the Essens 1995 clock model?), so that there are alternative ways to find pulses rather than heavily relying on empirical parameters. 
+- The major contribution for us is to emphasize the sequential learning and related human perceptions -- besides surprise: the joy of discovery and compression, maybe suspense. No previous study has explicitly talked about compression process, maybe except the "information content" in n-gram model. But we can do something much finer.
+
+- The biggest concern is the ecological validity of our model and the stimuli generated from our model. The solution is either to show the similarity between our model and some certain genre of music (say, dance and pop), or check our model's prediction power using their database. Also, behavior data is needed to determine what do people actually perceive and use in prediction. Also it is likely to combine different levels: say, the tactus pulses can be recognized after the repeated patterns have been identified (simlar as the Essens 1995 clock model?), so that there are alternative ways to find pulses rather than heavily relying on empirical parameters. 
+
+since we focus on the temporal dynamics of learning, even though there is hierarchical structure in our model, we don't assume all levels are learned simultaneously. this is rather an empirical question to be tested.
 
 > Yes I do like our idea of encoding specific patterns...which also appears in fine levels in Lerdahl and Jackendoff. So keep it.
 
-- The major contribution for us is to 1) emphasize the sequential learning and related human perceptions -- besides surprise: the joy of discovery and compression, maybe suspense. 2) since we focus on the temporal dynamics of learning, even though there is hierarchical structure in our model, we don't assume all levels are learned simultaneously. this is rather an empirical question to be tested.
